@@ -15,13 +15,14 @@ for i in range(n):
     c.append(z)
     
 ts = sum(a + b + c)
-print(ts)
 
 h = math.floor(ts/3600)
 rt = ts % 3600
 m = math.floor(rt/60)
 s = rt%60
 
-print('Hours: ',h)
+print('\nHours: ',h)
 print('Minutes: ',m)
 print('Seconds: ',s)
+
+print('\n>>>',h,':',m,':',s)
